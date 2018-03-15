@@ -1,0 +1,3 @@
+[submodule "libunicode"]
+	path = libunicode
+	url = https://github.com/perfgao/libunicode.git
