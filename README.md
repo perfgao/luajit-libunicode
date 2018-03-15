@@ -30,7 +30,7 @@ $ luajit -e "print(package.cpath)"
 
 Synopsis
 ========
-```
+```lua
 local libunicode = require("libunicode")
 
 -- unicode to utf-8
