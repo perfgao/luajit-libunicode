@@ -19,7 +19,7 @@ install:
 	install -m0644 $(LMODPATH) $(INSTALL_LMOD)/$(LMODFILE)
 
 test:
-	${LUA} test/test.lua
+	${LUA} tests/test.lua
 
 uninstall:
 	rm -f $(INSTALL_LMOD)/$(LMODFILE)
