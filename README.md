@@ -19,11 +19,11 @@ $ git submodule init
 $ git submodule update
 $ cd libunicode && make
 ```
-The libunicode.so will be generated in the src directory.
+  The *libunicode.so* will be generated in the *src* directory.
 
-5. The libunicode shared object file(libunicode.so) is required to live in your lua_cpath, so you should symlink or copy the .so file to the appropriate location.
+4. The *libunicode.so* shared object file is required to live in your lua_cpath, so you should symlink or copy the .so file to the appropriate location.
 
-tips: view the cpath
+tips: view the lua_cpath
 ```
 $ luajit -e "print(package.cpath)"
 ```
